@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Netflix</title>
+    <script src="https://unpkg.com/phosphor-icons"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    
 </head>
 <body>
+    
     <header>
         <img id="Logo-Netflix" src="assets/img/netflixlogo.png" alt="#">
     </header>
@@ -21,11 +23,19 @@
                 <h1>Entrar</h1>
             </div>
             <div class="inputs">
-                <input id="placeholder1" type="text" placeholder="Email ou número do telefone" required>
-                <input id="placeholder1" type="password" placeholder="Senha" required>
+                <div class="icons-align">
+                    <input id="email" type="text" placeholder="Email ou número do telefone" required >
+                    <i class="checkInput"></i>
+                </div>
+                <div class="icons-align">
+                    <input id="senha" type="password" placeholder="Senha" required>
+                    <i class="checkInput"></i>
+                    
+                </div>
+                
             </div>
             <div class="submit">
-                <button>Entrar</button>
+                <button id="submit">Entrar</button>
             </div>
             <div class="checkbox">
                 <div class="alinhar">
@@ -47,6 +57,8 @@
         </div>
     </form>
 
-    
+   
+
+    <script src="assets/index.js"></script>
 </body>
 </html>

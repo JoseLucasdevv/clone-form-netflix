@@ -120,7 +120,7 @@ form{
 .checkbox{
     display: flex;
     justify-content: space-between;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .checkbox p{
@@ -173,6 +173,24 @@ form{
 }
 .Texto-Menor{
     font-size: 1rem;
+}
+.icons-align{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.ph-x-circle{
+    position: absolute;
+    right: 5rem;
+    font-size: 2rem;
+    color:#ff0000
+}   
+
+.ph-check-circle{
+    position: absolute;
+    right: 5rem;
+    font-size: 2rem;
+    color:green
 }
 
 @media(max-width:768px){
